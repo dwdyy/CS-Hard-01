@@ -224,9 +224,9 @@ void mm_free(void *ptr) {
 }
 ```
 
-[运行结果](Part1/md/output.md)这里我保存了每次malloc或free后的堆作为输出
+[运行结果](Part1\md\output.md)这里我保存了每次malloc或free后的堆作为输出
 
-[Code](Part1/my_malloc.c)
+[Code](Part1\my_malloc.c)
 
 我们自行测试一下效率
 
@@ -438,9 +438,9 @@ static void place(void* bp, size_t asize){
 
 
 
-[Code](Part2/my_malloc.c) 本地运行时注意复制定义文件 `my_malloc.h ` 和main函数 `main.c` 文件
+[Code](Part2\my_malloc.c) 本地运行时注意复制定义文件 `my_malloc.h ` 和main函数 `main.c` 文件
 
-[样例输出](Part2/output/output.md) 这里我保存了每次malloc或free后的堆作为输出
+[样例输出](Part2\output\output.md) 这里我保存了每次malloc或free后的堆作为输出
 
 测试结果放在Part3了
 
