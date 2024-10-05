@@ -670,9 +670,9 @@ find_best速度慢但分配率高
 
 用宏定义一定要想清楚参数
 
-$GET/_SIZE(p)$ 传入的是头部的指针
+$GETSIZE(p)$ 传入的是头部的指针
 
-$GET/_PRED(p)$ $NEXT/_BLKP(p)$ 传入的就是块头的指针
+$GETPRED(p)$ $NEXTBLKP(p)$ 传入的就是块头的指针
 
 导致不注意的话很容易写出错误
 
