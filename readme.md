@@ -224,9 +224,9 @@ void mm_free(void *ptr) {
 }
 ```
 
-[运行结果](Part1\md\output.md)这里我保存了每次malloc或free后的堆作为输出
+[运行结果](Part1/md/output.md)这里我保存了每次malloc或free后的堆作为输出
 
-[Code](Part1\my_malloc.c)
+[Code](Part1/my_malloc.c)
 
 我们自行测试一下效率
 
