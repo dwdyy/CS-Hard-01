@@ -438,9 +438,9 @@ static void place(void* bp, size_t asize){
 
 
 
-[Code](Part2\my_malloc.c) 本地运行时注意复制定义文件 `my_malloc.h ` 和main函数 `main.c` 文件
+[Code](Part2/my_malloc.c) 本地运行时注意复制定义文件 `my_malloc.h ` 和main函数 `main.c` 文件
 
-[样例输出](Part2\output\output.md) 这里我保存了每次malloc或free后的堆作为输出
+[样例输出](Part2/output/output.md) 这里我保存了每次malloc或free后的堆作为输出
 
 测试结果放在Part3了
 
