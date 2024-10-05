@@ -39,7 +39,7 @@
 
 - free只需要一个指针作为参数，它是怎么知道要释放多大的内存
 
-  ![image1](image\image1.png)
+  ![image1](image/image1.png)
 
 malloc多会分配空间储存块大小与是否空闲，在返回的指针前面
 
